@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(223, 194, 156);
+    text-align: center;
+}
+
+.game-area {
+    height: 85vmin;
+    background-color:blanchedalmond;
+    width: 50rem;
+    margin: auto;
+
+}
+
+.heading{
+    margin-top: 5rem;
+    height: 5vmin;
+    padding-top: 4vmin;
+}
+
+.container {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.game {
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.winner-msg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20vmin;
+    padding: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    height: 10vmin;
+    padding: 2rem;
+}
+
+.hide{
+    display: none;
+}
+
+.noHide{
+    display: none;
+}
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem grey;
+    font-size: 8vmin;
+    color: darkgreen;
+}
+
+.buttons {
+    padding: 1rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+#reset-butn, #new-butn{
+    padding: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    background-color:seagreen;
+    color: antiquewhite;
+    border: none;
+    border-radius: 1rem;
+    width: 25vmin;
+    height: 5vmin;
+    justify-items: center;
+}
+
+.message {
+    /* width: 50rem; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 5vmin;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#msg {
+    /* padding: 1rem; */
+    font-size: 1.5rem;
+    height: 5vmin;
+    /* width: 40vmin; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.newButn {
+    height: 5vmin;
+    display: flex;
+}
+
+.xtraComponents {
+    height: 10vmin;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    text-align: center;
+}
